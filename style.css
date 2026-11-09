@@ -7,7 +7,7 @@ body {
     color: #111;
 }
 
-/* Header */
+
 header {
     background-color: blue;
     color: white;
@@ -20,13 +20,11 @@ header h1 {
     font-size: 24px;
 }
 
-/* Main content area */
 .content {
 
     padding: 16px 18px 0;
 }
 
-/* White content cards */
 .biography,
 .achievements {
     background-color: white;
@@ -57,7 +55,6 @@ header h1 {
     padding-left: 32px;
 }
 
-/* Footer */
 footer {
     background-color: blue;
     color: white;
@@ -70,18 +67,4 @@ footer p {
     font-size: 14px;
 }
 
-/* Small-screen adjustments */
-@media (max-width: 600px) {
-    .content {
-        padding: 12px 10px 0;
-    }
 
-    .biography,
-    .achievements {
-        padding: 14px;
-    }
-
-    header h1 {
-        font-size: 21px;
-    }
-}
