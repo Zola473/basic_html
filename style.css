@@ -25,7 +25,16 @@ header h1 {
     padding: 16px 18px 0;
 }
 
-.biography,
+.biography{
+    
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+}
 .achievements {
     background-color: white;
     padding: 16px;
